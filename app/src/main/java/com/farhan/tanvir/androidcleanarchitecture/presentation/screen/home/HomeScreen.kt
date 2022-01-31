@@ -63,7 +63,7 @@ fun HomeScreen(navController: NavHostController, viewModel: HomeViewModel = hilt
             }
             is Result.Error -> Toast.makeText(
                 LocalContext.current,
-                "Something happened . Please try again .",
+                stringResource(R.string.toast_error),
                 Toast.LENGTH_SHORT
             )
         }

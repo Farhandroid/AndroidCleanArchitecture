@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MovieMania</string>
+    <string name="toast_error">Something happened . Please try again .</string>
 </resources>
