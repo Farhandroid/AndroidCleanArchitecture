@@ -1,7 +1,7 @@
 # MovieMania
 ![MovieMania2](https://user-images.githubusercontent.com/32593150/151771096-dc23d27a-b47f-433a-8c77-1e6d802c83d8.gif)
 
-### <br/><br/>This project is described  [ here (Put the article link)](https://kotlinlang.org/docs/reference/coroutines-overview.html)  . Please check it .
+### <br/><br/>This project is described  [ here](https://farhan-tanvir.medium.com/clean-architecture-in-android-jetpack-compose-kotlin-mvvm-%E3%83%BCpart-1-f17908b83c0d)  . Please check it .
 
 ## <br/><br/>Built With 🛠
 - [Kotlin](https://kotlinlang.org/) 
