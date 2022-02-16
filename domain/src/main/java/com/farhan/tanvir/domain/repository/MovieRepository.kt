@@ -1,9 +1,11 @@
 package com.farhan.tanvir.domain.repository
-import com.farhan.tanvir.domain.model.MovieList
-import com.farhan.tanvir.domain.util.Result
+
+import androidx.paging.PagingData
+import com.farhan.tanvir.domain.model.Movie
 import kotlinx.coroutines.flow.Flow
 
 
 interface MovieRepository {
-     suspend fun getPopularMovies(): Result<MovieList>
+    fun getPopularMovies(): Flow<PagingData<Movie>>
+    fun getMoviesFromDB(movieId: Int): Flow<Movie>
 }

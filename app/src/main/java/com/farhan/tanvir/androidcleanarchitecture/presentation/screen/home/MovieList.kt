@@ -1,4 +1,4 @@
-package com.farhan.tanvir.androidcleanarchitecture.presentation.components
+package com.farhan.tanvir.androidcleanarchitecture.presentation.screen.home
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -19,6 +19,7 @@ import androidx.paging.compose.items
 import coil.compose.rememberImagePainter
 import coil.size.Scale
 import com.farhan.tanvir.androidcleanarchitecture.BuildConfig
+import com.farhan.tanvir.androidcleanarchitecture.presentation.components.RatingComponent
 import com.farhan.tanvir.androidcleanarchitecture.presentation.navigation.Screen
 import com.farhan.tanvir.androidcleanarchitecture.ui.theme.ItemBackgroundColor
 import com.farhan.tanvir.domain.model.Movie
@@ -96,5 +97,4 @@ fun MovieListItem(movie: Movie, navController: NavHostController) {
             }
         }
     }
-
 }
