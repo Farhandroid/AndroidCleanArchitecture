@@ -7,7 +7,7 @@
 #### <br/><br/>Get the latest MovieMania app apk from below 👇
 [![MovieMania](https://img.shields.io/badge/MovieMania-APK-blue)](https://github.com/Farhandroid/AndroidCleanArchitecture/releases/download/Latest/MovieMania-debug.apk)
 
-### <br/><br/>This project is described  [ here](https://farhan-tanvir.medium.com/clean-architecture-in-android-jetpack-compose-kotlin-mvvm-%E3%83%BCpart-1-f17908b83c0d)  . Please check it .
+### <br/><br/>This project is described  [ here](https://farhan-tanvir.medium.com/clean-architecture-in-android-jetpack-compose-paging-3-0-kotlin-mvvm-%E3%83%BCpart-2-8d97cee4dffe)  . Please check it .
 
 ## <br/><br/>Screenshort 📸
 ![Screenshort](https://user-images.githubusercontent.com/32593150/154197554-9325bc59-1f29-44b3-a85b-d7561ea158df.jpg)
