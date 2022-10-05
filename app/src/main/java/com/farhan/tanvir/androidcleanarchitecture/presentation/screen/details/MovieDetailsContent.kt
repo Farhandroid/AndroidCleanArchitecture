@@ -42,7 +42,7 @@ fun MovieDetailsContent(movie: Movie) {
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(350.dp),
-                contentScale = ContentScale.FillWidth
+                contentScale = ContentScale.Inside
             )
             Column(modifier = Modifier.padding(8.dp)) {
                 Spacer(modifier = Modifier.height(16.dp))
