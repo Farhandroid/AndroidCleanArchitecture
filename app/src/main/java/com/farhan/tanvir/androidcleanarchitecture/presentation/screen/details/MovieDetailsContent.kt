@@ -10,9 +10,12 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import coil.compose.rememberImagePainter
+import coil.request.ImageRequest
 import coil.size.Scale
 import com.farhan.tanvir.androidcleanarchitecture.BuildConfig
 import com.farhan.tanvir.androidcleanarchitecture.presentation.components.RatingComponent
@@ -32,12 +35,13 @@ fun MovieDetailsContent(movie: Movie) {
                 .fillMaxWidth()
                 .verticalScroll(scrollState)
         ) {
-            Image(
-                painter = rememberImagePainter(
-                    data = BuildConfig.POSTER_URL + movie.posterPath, builder = {
-                        crossfade(true)
-                        scale(Scale.FIT)
-                    }),
+            AsyncImage(
+                model = ImageRequest.Builder(LocalContext.current)
+                    .data(
+                        BuildConfig.POSTER_URL + movie.posterPath
+                    )
+                    .crossfade(true)
+                    .build(),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxWidth()

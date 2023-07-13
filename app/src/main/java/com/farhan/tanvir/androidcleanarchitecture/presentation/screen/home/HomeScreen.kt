@@ -31,7 +31,7 @@ fun HomeScreen(navController: NavHostController, viewModel: HomeViewModel = hilt
         topBar = {
             HomeTopBar()
         },
-        content = {
+        content = { it
             MovieListContent(allMovies = allMovies, navController = navController)
         }
     )
